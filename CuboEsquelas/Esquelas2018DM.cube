@@ -1,0 +1,325 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ce3b5a3b-3eb2-40b2-aea7-c2e02b6e6b36" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Esquelas2018DM</ID>
+  <Name>Esquelas2018DM</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5284" scrolltop="-2560" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28125" y="22040" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Tiempo" left="-351" top="-635" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Tiempo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Esquela" left="5420" top="4279" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3201" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000810c00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Esquela" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Registro" left="-933" top="4067" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Registro" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Pago" left="20" top="9828" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Pago" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="200" top="745" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3622" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Registro_Tiempo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="3" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="599" y="1244" />
+              <point x="599" y="2973" />
+              <point x="567" y="2973" />
+              <point x="567" y="4067" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1767" top="4241" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3953" height="912" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Registro_Esquela]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="10" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5420" y="4753" />
+              <point x="3744" y="4753" />
+              <point x="3744" y="4541" />
+              <point x="2067" y="4541" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="21" top="6916" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="846" height="3412" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Registro_Pago]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="420" y="9828" />
+              <point x="420" y="8522" />
+              <point x="567" y="8522" />
+              <point x="567" y="7216" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5284</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2560</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-933</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-635</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="e1e0ccae-8183-4a9c-955d-ccf5513faf91">
+      <ID>Tiempo</ID>
+      <Name>Tiempo</Name>
+      <DimensionID>Tiempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f2414cc6-ba2f-44b1-8bb1-ea8003102879">
+          <AttributeID>ID Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d74930e-ac6a-44ce-afb5-d6a9f79d49b5">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="09933fcb-ac99-4746-9601-76cf3396f26f">
+      <ID>Esquela</ID>
+      <Name>Esquela</Name>
+      <DimensionID>Esquela</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1aa51d49-c0fe-4965-a684-8957e3988079">
+          <AttributeID>ID Esquela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d9661e4c-c71b-4434-afdb-de4d06c238ac">
+          <AttributeID>Numero Esquela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6cb24a9-964f-454c-ad63-9ecbe2523585">
+          <AttributeID>Vice Ministerio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3de0f20-9d23-40ee-a581-4e82ca9c0ce6">
+          <AttributeID>Departamento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db8e878b-67b2-42c7-81fc-61f67d68388e">
+          <AttributeID>Descripcion</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="284d225d-4601-4b74-bc66-70d65cd1b567">
+      <ID>Pago</ID>
+      <Name>Pago</Name>
+      <DimensionID>Pago</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9eb4304b-9083-404e-b17f-b2fe9627441e">
+          <AttributeID>ID Pago</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1a690b5a-462e-4408-9a9b-e0e66dc46bfa">
+          <AttributeID>Estado</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="11210d31-e351-43ed-8f43-1b976e2dee98">
+      <ID>Registro</ID>
+      <Name>Registro</Name>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="464c555c-9705-4a96-96f1-8cec6ffb7ddb">
+          <ID>Valor</ID>
+          <Name>Valor</Name>
+          <Source dwd:design-time-name="1c6f153f-9833-497c-9e3d-dceae79d8168">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="471b02d1-9288-46bc-a262-771be23c93e7">
+              <TableID>dbo_Registro</TableID>
+              <ColumnID>Valor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="699c62b7-a678-4b52-ad28-e3a75e80233c">
+          <ID>Interes</ID>
+          <Name>Interes</Name>
+          <Source dwd:design-time-name="9f606971-5e65-4de4-8ecd-c07ee8bf5a25">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="87ae8db8-0f4a-43a8-a942-4efc5838b6f5">
+              <TableID>dbo_Registro</TableID>
+              <ColumnID>Interes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d141e0e6-a78f-406f-a132-a39c2fbb6dfd">
+          <ID>Recuento Registro</ID>
+          <Name>Recuento Registro</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a473a895-ae59-4420-b700-eeb70bc60143">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="5d3c0ee3-5854-48c2-b6cd-f9713b08f94a">
+              <TableID>dbo_Registro</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="78e3640f-c2cb-4c3a-acd4-672aceb7402d">
+          <CubeDimensionID>Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0c8ebb13-3dee-4df2-ae63-c393b29609a2">
+              <AttributeID>ID Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b23262f4-9a54-451d-8d69-61c2f2279e94">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0994e554-83a5-42bb-9d35-d11c5d6ab51f">
+                    <TableID>dbo_Registro</TableID>
+                    <ColumnID>IDTiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1e943f6a-1d34-41e5-9374-2dcf774caa91">
+          <CubeDimensionID>Esquela</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cdf1d879-f7e9-4bcc-aa80-1bdcc6c4e0fe">
+              <AttributeID>ID Esquela</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fc425c4c-7b6d-4732-a8ec-647f4e21eb31">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="78b98a84-5313-4c10-9b80-fb02ac35d098">
+                    <TableID>dbo_Registro</TableID>
+                    <ColumnID>IDEsquela</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8b86382e-4b2d-42bb-aa3e-d8bbe1fd4163">
+          <CubeDimensionID>Pago</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="89add76d-0374-4849-a20f-9dec5d6af710">
+              <AttributeID>ID Pago</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c42451f1-fbcf-4374-88cb-a6c9392726ce">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="392e0834-a71d-4f9e-a155-f6d229d06ba9">
+                    <TableID>dbo_Registro</TableID>
+                    <ColumnID>IDPago</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="bc0194a2-e8ad-45f8-998d-ec8f3280026c">
+    <DataSourceViewID>Esquelas2018DM</DataSourceViewID>
+  </Source>
+</Cube>

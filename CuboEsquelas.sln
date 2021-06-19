@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CuboEsquelas", "CuboEsquelas\CuboEsquelas.dwproj", "{7FB141D3-4711-403E-B3C5-B9C21752EE9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB141D3-4711-403E-B3C5-B9C21752EE9F}.Development|Default.ActiveCfg = Development
+		{7FB141D3-4711-403E-B3C5-B9C21752EE9F}.Development|Default.Build.0 = Development
+		{7FB141D3-4711-403E-B3C5-B9C21752EE9F}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F3E9BFA-3EE5-4C5B-93CC-158FC4037968}
+	EndGlobalSection
+EndGlobal

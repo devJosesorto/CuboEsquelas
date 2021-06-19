@@ -1,0 +1,146 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f2ab4c82-468a-4a8a-9f0d-5f4b975eb008" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Esquelas2018DM</ID>
+  <Name>Esquelas2018DM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Esquelas2018DM</DataSourceID>
+  <Schema>
+    <xs:schema id="Esquelas2018DM" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Esquelas2018DM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="e20ea7cb-d628-46de-99da-a36a7d651563">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Esquela" msprop:design-time-name="89ef02d8-fab5-4abc-a9df-7ec0fd082539" msprop:DbTableName="Esquela" msprop:FriendlyName="Esquela" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDEsquela" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="c8cf50c9-d1c2-46ea-96ad-6a06cea66a4e" msprop:DbColumnName="IDEsquela" msprop:FriendlyName="IDEsquela" type="xs:int" />
+                  <xs:element name="NumeroEsquela" msprop:design-time-name="80092b29-8c45-460c-bef3-161bb7c89107" msprop:DbColumnName="NumeroEsquela" msprop:FriendlyName="NumeroEsquela" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ViceMinisterio" msprop:design-time-name="99561fc9-4a0b-4a0d-b56e-bd623bed5bc5" msprop:DbColumnName="ViceMinisterio" msprop:FriendlyName="ViceMinisterio" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Departamento" msprop:design-time-name="700846a0-64b2-4208-a2f9-2fab3f8e36a6" msprop:DbColumnName="Departamento" msprop:FriendlyName="Departamento" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Descripcion" msprop:design-time-name="3327a827-48ad-4b28-99e4-51a6134124ea" msprop:DbColumnName="Descripcion" msprop:FriendlyName="Descripcion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Pago" msprop:design-time-name="67a2fdd9-36b2-486c-baee-08c07cf26d8e" msprop:DbTableName="Pago" msprop:FriendlyName="Pago" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDPago" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="172f97dd-ef37-4777-a378-c2b5480773be" msprop:DbColumnName="IDPago" msprop:FriendlyName="IDPago" type="xs:int" />
+                  <xs:element name="Estado" msprop:design-time-name="c916c119-eda2-43c8-bdcb-53d176c74bf6" msprop:DbColumnName="Estado" msprop:FriendlyName="Estado" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Registro" msprop:design-time-name="2406fa28-eb65-4052-8d19-32d4fed9c844" msprop:DbTableName="Registro" msprop:FriendlyName="Registro" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDPago" msprop:design-time-name="67957b1c-271d-4fa0-9cd2-a13bc9e8fbbb" msprop:DbColumnName="IDPago" msprop:FriendlyName="IDPago" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDEsquela" msprop:design-time-name="45f35809-f41d-4d4c-bf01-3059fccab3a8" msprop:DbColumnName="IDEsquela" msprop:FriendlyName="IDEsquela" type="xs:int" minOccurs="0" />
+                  <xs:element name="IDTiempo" msprop:design-time-name="e580eba3-8a23-430f-bc72-5a4d8a8edfbb" msprop:DbColumnName="IDTiempo" msprop:FriendlyName="IDTiempo" type="xs:int" minOccurs="0" />
+                  <xs:element name="Valor" msprop:design-time-name="8c9a5abf-bbca-4c6d-81c8-ae9c6052d0dc" msprop:DbColumnName="Valor" msprop:FriendlyName="Valor" type="xs:double" minOccurs="0" />
+                  <xs:element name="Interes" msprop:design-time-name="760d9934-6862-47d2-8610-edb835bb57bf" msprop:DbColumnName="Interes" msprop:FriendlyName="Interes" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Tiempo" msprop:design-time-name="6249548d-7b5e-4b8c-8208-6398b081cfba" msprop:DbTableName="Tiempo" msprop:FriendlyName="Tiempo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDTiempo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="639d8187-825d-45aa-8be5-ab48b485a290" msprop:DbColumnName="IDTiempo" msprop:FriendlyName="IDTiempo" type="xs:int" />
+                  <xs:element name="Fecha" msprop:design-time-name="306c381f-7657-43f5-90dd-a5e78ee57817" msprop:DbColumnName="Fecha" msprop:FriendlyName="Fecha" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Esquela" />
+          <xs:field xpath="IDEsquela" />
+        </xs:unique>
+        <xs:unique name="dbo_Pago_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Pago" />
+          <xs:field xpath="IDPago" />
+        </xs:unique>
+        <xs:unique name="dbo_Tiempo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Tiempo" />
+          <xs:field xpath="IDTiempo" />
+        </xs:unique>
+        <xs:keyref name="FK_Registro_Tiempo" refer="dbo_Tiempo_Constraint1">
+          <xs:selector xpath=".//dbo_Registro" />
+          <xs:field xpath="IDTiempo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Registro_Esquela" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Registro" />
+          <xs:field xpath="IDEsquela" />
+        </xs:keyref>
+        <xs:keyref name="FK_Registro_Pago" refer="dbo_Pago_Constraint1">
+          <xs:selector xpath=".//dbo_Registro" />
+          <xs:field xpath="IDPago" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Esquelas2018DM xmlns="" />
+  </Schema>
+</DataSourceView>
